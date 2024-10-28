@@ -1,0 +1,13 @@
+.header {
+  padding-top: 40px;
+  display: flex;
+  align-items: self-start;
+}
+.header__logo {
+  background-color: var(--pacific-blue);
+  border-radius: 50%;
+}
+
+body {
+  background: url("/img/hero-background.jpg") 100%;
+}

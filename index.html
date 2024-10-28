@@ -3,13 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" href="fonts/Roboto-Black.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="fonts/Roboto-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="fonts/Roboto-Regular.ttf" as="font" type="font/ttf" crossorigin>
   <link href="styles/style.css" rel="stylesheet">
   <title>Document</title>
 </head>
 <body>
   <header class="header">
     <div class="container header__container">
-      <p>Logo</p>
+      <p class="header__logo">Logo</p>
       <a href="tel:+7 (962) 556 - 1234">+7 (962) 556 - 1234</a>
       <a href="tel:+7 (962) 556 - 1234">Перезвоните мне</a>
     </div>
@@ -19,9 +22,9 @@
     <section class="hero">
       <div class="container">
         <div class="">
-          <h1>Заголовок c уникальным торговым предложение по системе 4U</h1>
-          <p>Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.</p>
-          <a href="#about">Подробнее</a>
+          <h1 class="hero__title">Заголовок c уникальным торговым предложение по системе 4U</h1>
+          <p class="hero__text">Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.</p>
+          <a href="#about" class="hero__btn">Подробнее</a>
         </div>
       </div>
     </section>
@@ -31,22 +34,22 @@
         <h2>Уникальный заголовок для преимущества компании</h2>
         <h3>О нас</h3>
         <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.</p>
-        <ul>
-          <ol>Первое целевое преимущество</ol>
-          <ol>Второе целевое преимущество</ol>
-          <ol>Третье целевое преимущество</ol>
-          <ol>Четвертое целевое преимущество</ol>
+        <ul class="about__list">
+          <ol class="about__item">Первое целевое преимущество</ol>
+          <ol class="about__item">Второе целевое преимущество</ol>
+          <ol class="about__item">Третье целевое преимущество</ol>
+          <ol class="about__item">Четвертое целевое преимущество</ol>
         </ul>
 
       </div>
     </section>
 
     <section class="form">
-      <div class="container">
+      <div class="container container__form">
         <div>
           <h2>Остались вопросы?</h2>
           <p>Оставьте номер телефона, и мы перезвоним вам</p>
-          <form action="https://jsonplaceholder.typicode.com/posts" class="form" method="post" enctype="application/x-www-form-urlencoded">
+          <form action="https://jsonplaceholder.typicode.com/posts" class="form_fm" method="post" enctype="application/x-www-form-urlencoded">
             <div class="form__body">
               <label for=""></label>
               <input type="text" placeholder="Ваше имя">
@@ -67,11 +70,17 @@
 
   </main>
 
-  <footer>
-    <div>
-      <p>Logo</p>
-      <a href="tel:+7 (962) 556 - 1234">+7 (962) 556 - 1234</a>
-      <a href="tel:+7 (962) 556 - 1234">Перезвоните мне</a>
+  <footer class="footer">
+    <div class="container container__footer">
+      <div>
+        <p>Logo</p>
+        <p>© 2022 XXXcompany. Все права защищены.</p>        
+      </div>
+      <p>Сделано в Ивановым Иваном</p>
+      <div>
+        <a href="tel:+7 (962) 556 - 1234">+7 (962) 556 - 1234</a>
+        <a href="tel:+7 (962) 556 - 1234">Перезвоните мне</a>        
+      </div>
     </div>
   </footer>
 </body>

@@ -1,6 +1,18 @@
+.container__form {
+  /* background: url("/img/form-background.jpg");
+  height: 621px;
+  opacity: rgba(47, 50, 75, 0.85); */
+}
 .form {
-  background-image: url("/img/form-background.jpg");
+  background: url("/img/form-background.jpg") no-repeat;
+  background-size: cover;
   /* height: 621px; */
+  
+  /* opacity: rgba(47, 50, 75, 0.85); */
+}
+
+.form::before {
+  background-color: rgba(47, 50, 75, 0.85);
 }
 
 .form__body {

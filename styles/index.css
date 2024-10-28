@@ -1,3 +1,27 @@
+@font-face {
+  font-family: Roboto;
+  src: local("Roboto"), local("Roboto-Regular"),
+        url("../fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: local("Roboto"), local("Roboto-Bold"),
+        url("../fonts/Roboto-Bold.ttf");
+  font-weight: 700;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: Roboto;
+  src: local("Roboto"), local("Roboto-Black"),
+        url("../fonts/Roboto-Black.ttf");
+  font-weight: 900;
+  font-display: swap;
+} 
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;

@@ -1,0 +1,13 @@
+.about {
+  background: rgb(249, 249, 249);
+}
+
+.about__list {
+  list-style: decimal;
+  padding: auto;
+  margin: auto;
+}
+
+.about__item {
+
+}
