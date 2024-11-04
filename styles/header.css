@@ -1,13 +1,31 @@
-.header {
+.header__container {
   padding-top: 40px;
   display: flex;
-  align-items: self-start;
+  justify-content: space-between;
 }
 .header__logo {
   background-color: var(--pacific-blue);
   border-radius: 50%;
+
+  font-size: 25.16px;
+  font-weight: 400;
+  line-height: 44px;
+  color: var(--main-white);
 }
 
-body {
-  background: url("/img/hero-background.jpg") 100%;
+.header__tel {
+  display: flex;
+  flex-direction: column;
 }
+
+.header {
+  background: url("/img/hero-background.jpg") rgba(47, 50, 75, 0.85);
+  height: 732px;
+}
+
+
+/* .hero {
+  height: 100%;
+  background: inherit;
+  background-size: cover;
+} */

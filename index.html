@@ -13,12 +13,11 @@
   <header class="header">
     <div class="container header__container">
       <p class="header__logo">Logo</p>
-      <a href="tel:+7 (962) 556 - 1234">+7 (962) 556 - 1234</a>
-      <a href="tel:+7 (962) 556 - 1234">Перезвоните мне</a>
+      <div class="header__tel">
+        <a href="tel:+7 (962) 556 - 1234">+7 (962) 556 - 1234</a>
+        <a href="tel:+7 (962) 556 - 1234">Перезвоните мне</a>        
+      </div>
     </div>
-  </header>
-
-  <main>
     <section class="hero">
       <div class="container">
         <div class="">
@@ -28,18 +27,30 @@
         </div>
       </div>
     </section>
+  </header>
+
+  <main>
+    <!-- <section class="hero">
+      <div class="container">
+        <div class="">
+          <h1 class="hero__title">Заголовок c уникальным торговым предложение по системе 4U</h1>
+          <p class="hero__text">Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.</p>
+          <a href="#about" class="hero__btn">Подробнее</a>
+        </div>
+      </div>
+    </section> -->
 
     <section class="about">
       <div class="container">
-        <h2>Уникальный заголовок для преимущества компании</h2>
-        <h3>О нас</h3>
-        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.</p>
-        <ul class="about__list">
-          <ol class="about__item">Первое целевое преимущество</ol>
-          <ol class="about__item">Второе целевое преимущество</ol>
-          <ol class="about__item">Третье целевое преимущество</ol>
-          <ol class="about__item">Четвертое целевое преимущество</ol>
-        </ul>
+        <h2 class="about__title">Уникальный заголовок для преимущества компании</h2>
+        <h3 class="about__subtitle">О нас</h3>
+        <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.</p>
+        <ol class="about__list">
+          <li class="about__item">Первое целевое преимущество</li>
+          <li class="about__item">Второе целевое преимущество</li>
+          <li class="about__item">Третье целевое преимущество</li>
+          <li class="about__item">Четвертое целевое преимущество</li>
+        </ol>
 
       </div>
     </section>
@@ -47,20 +58,20 @@
     <section class="form">
       <div class="container container__form">
         <div>
-          <h2>Остались вопросы?</h2>
-          <p>Оставьте номер телефона, и мы перезвоним вам</p>
+          <h2 class="form__header">Остались вопросы?</h2>
+          <p class="form__text">Оставьте номер телефона, и мы перезвоним вам</p>
           <form action="https://jsonplaceholder.typicode.com/posts" class="form_fm" method="post" enctype="application/x-www-form-urlencoded">
             <div class="form__body">
+              <label for="" class=""></label>
+              <input type="text" class="form__input" placeholder="Ваше имя">
               <label for=""></label>
-              <input type="text" placeholder="Ваше имя">
+              <input type="number" class="form__input" placeholder="Телефон" pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$">
               <label for=""></label>
-              <input type="number" placeholder="Телефон" pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$">
-              <label for=""></label>
-              <input type="email" placeholder="E-mail">
+              <input type="email" class="form__input" placeholder="E-mail">
             </div>
             <div class="form__reservation">
               <button type="submit" class="form__btn">Позвоните мне</button>
-              <p>Я даю своё <a>согласие</a> на обработку моих персональных данных.</p>             
+              <p>Я даю своё <a class="form__agreement">согласие</a> на обработку моих персональных данных.</p>             
             </div>
           </form>
         </div>
