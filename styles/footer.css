@@ -1,8 +1,69 @@
 .footer {
   background: rgb(47, 50, 75);
+  padding: 45px 0;
 }
 
 .container__footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__logo {
+  font-family: Pacifico;
+  font-size: 25.16px;
+  font-weight: 400;
+  color: var(--main-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--pacific-blue);
+  border-radius: 50%;
+  width: 68px;
+  height: 68px;
+} 
+
+.footer__logo-a {
+
+}
+
+.footer__inf {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: left;
+  white-space: pre-line;
+  }
+
+.footer__tel {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__tel-nmbr {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 23.85px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.footer__tel-btn {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
 }

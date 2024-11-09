@@ -2,15 +2,30 @@
   padding-top: 40px;
   display: flex;
   justify-content: space-between;
+  /* margin-bottom: 120px; */
+  /* position: absolute;
+  left: 0;
+  right: 0;
+  top: 0; */
+  z-index: 3;
+  
 }
 .header__logo {
-  background-color: var(--pacific-blue);
-  border-radius: 50%;
-
+  font-family: Pacifico;
   font-size: 25.16px;
   font-weight: 400;
-  line-height: 44px;
   color: var(--main-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--pacific-blue);
+  border-radius: 50%;
+  width: 68px;
+  height: 68px;
+} 
+
+.header__logo-a {
+
 }
 
 .header__tel {
@@ -18,14 +33,34 @@
   flex-direction: column;
 }
 
-.header {
-  background: url("/img/hero-background.jpg") rgba(47, 50, 75, 0.85);
-  height: 732px;
+.header__tel-nmbr {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 23.85px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
+.header__tel-btn {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+}
 
-/* .hero {
-  height: 100%;
-  background: inherit;
-  background-size: cover;
-} */
+.header {
+  position:absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 3;
+  margin-bottom: 160px;
+  /* position: relative; */
+  /* bottom: 120px; */
+}
+
