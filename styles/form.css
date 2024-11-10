@@ -83,4 +83,5 @@
 .form__agreement {
   color: rgb(74, 118, 168);
   text-decoration: underline;
+  text-underline-position: under;
 }

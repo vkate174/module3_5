@@ -31,6 +31,7 @@
 .header__tel {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .header__tel-nmbr {
@@ -51,6 +52,9 @@
   line-height: 19px;
   letter-spacing: 0%;
   text-align: center;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.5);
+  text-underline-position: under;
 }
 
 .header {

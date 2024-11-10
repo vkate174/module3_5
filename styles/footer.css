@@ -12,6 +12,8 @@
 .footer__info {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  gap: 19px;
 }
 
 .footer__logo {
@@ -32,7 +34,7 @@
 
 }
 
-.footer__inf {
+.footer__copyright {
   color: rgb(255, 255, 255);
   font-family: Roboto;
   font-size: 12px;
@@ -41,11 +43,22 @@
   letter-spacing: 0%;
   text-align: left;
   white-space: pre-line;
-  }
+}
+
+.footer__text {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: left;
+}
 
 .footer__tel {
   display: flex;
   flex-direction: column;
+  gap: 3px;
 }
 
 .footer__tel-nmbr {
@@ -66,4 +79,7 @@
   line-height: 19px;
   letter-spacing: 0%;
   text-align: center;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255);
+  text-underline-position: under;
 }
